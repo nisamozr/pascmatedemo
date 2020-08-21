@@ -216,13 +216,15 @@ a{
     font-weight: lighter;
     font-size: 16px;
 }
-
+.block{
+    display: block;
+}
 
 @media(max-width: 768px){
 
     .profil{
         padding: 0 ;
-        height: 340px;
+        height: 330px;
        
     }
     .cover{
@@ -278,7 +280,7 @@ a{
 
 }
 .submenu{
-    margin-top: 40px auto;
+    margin-top: 0px;
     display: flex;
     justify-content: space-around;
     
