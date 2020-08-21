@@ -257,7 +257,7 @@ a{
     .bio{
         
         position: absolute;
-        margin-top: 500px;
+        margin-top: 310px;
     }
     .bio table{
         color: #303952;
@@ -406,22 +406,20 @@ a{
 /* ========post uplod end============ */
 
 .timeLineContainer{
-    padding: 60px 90px;
-   
+    padding: 60px 0;
 }
 .timeLine{
-    padding: 0px 100px;
+    padding: 0px 50px;
     
     width: 100%;
     height: auto;
-    
 }
 .postPic{
     
     width: 100%;
     height: auto;
-    margin-bottom: 40px;
-    background-color: #fff;
+    margin-bottom: 50px;
+    background-color: #ffffff;
 
     display: flex;
     flex-direction: column;
@@ -436,19 +434,19 @@ a{
     0 100px 80px rgba(0, 0, 0, 0.12)
   ;
    
+   
     
 }
 .header{
     
     width: 100%;
     height: 60px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 0 30px;
     display: flex;
     justify-content: space-between;
-    color: black;
     
     
     
@@ -466,6 +464,7 @@ a{
 
 
 }
+
 .timelineName{
     margin-left: 20px;
 
@@ -475,36 +474,33 @@ a{
     width: 100%;
     height: auto;
     /* background-color: #e5e8f0; */
-    background-color: rgb(245, 245, 245);
+    background-color: #dde1e6;
     overflow: hidden;
-    color: #000;
-    position: relative;
+    color: rgb(0, 0, 0);
     
 }
 .body img{
     width: 100%;
-    height: auto;
+    min-height: 600px ;
+    
 }
 /* vedio */
 .body video{
     width: 100%;
-    height: auto;
-
+    min-height: auto;
 }
 /* text */
 .body p{
     margin: 50px;
-    position: absolute;
-    margin-top: 20px;
 
 }
 .body h5{
     margin: 5px 30px;
     margin-bottom: 5px;
-    width: 50%;
+    width: 56%;
     height: auto;
     font-weight: lighter;
-    color: #000;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -512,7 +508,7 @@ a{
     width: 100%;
     height: 50px;
     
-    background-color: #fff;
+    background-color: #ffffff;
    
     display: flex;
     justify-content: space-evenly;
@@ -530,20 +526,14 @@ a{
     width: 50%;
     height: 100%;
     border-left: 1;
-    color: #fff;
     
-}
-.footer div a{
-    color: #fff;
 }
 .right{
-    background-color:#303952 ;
-    color: #fff;
+    background-color:#dfd5d5; 
+    
 }
 .left{
-    background-color: #303952;
-  
-    
+    background-color:#d1caca; ;
 }
 
 .right:hover{
@@ -576,7 +566,7 @@ a{
     
 }
 .comments p{
-    color: #000;
+    color: #0c0c0c;
     font-size: 14px;
 }
 
@@ -592,7 +582,7 @@ a{
     margin: 20px 0;
 }
 .commentform form input{
-    background-color: #d8cfcf;
+    background-color: #f3f1f1;
     height: 30px;
     width: 100%;
     border: 0;
@@ -601,13 +591,64 @@ a{
     
 
 }
+.comBut{
+    margin-left: -50px;
+    border-radius: 30px;
+    background-color: rgb(198, 198, 241);
+    border: 0;
+   
+    align-items: center;
+height: 30px;
+width: 50px;
+}
+
 
 @media(max-width: 768px){
+    .centerContainer{
+       
+        flex: none;
+        width: 100%;
+    }
+   /* .searchHeder{
+        display: none;
+        
+    
+    }
+    .is-active {
+        display: block;
+        margin-top: 70px;
+    } */
+
+    
+    .leftContainer{
+        display: none;
+    }
+    .rightContainer{
+        display: none;
+    }
+
+    .postcontainer{
+        
+        padding: 0;
+        
+    }
+    .postupload{
+        margin: 20px 0;
+        margin-top: 80px;
+       
+    
+        padding:  20px;
+    }
+    .postform form{
+        padding: 15px 0;
+    }
+   
     .timeLineContainer{
-        padding: 60px 0;
+        padding: 0;
     }
     .timeLine{
-        padding: 0 30px;
+        padding: 0 ;
+        margin: 0;
         
 
     }
@@ -622,22 +663,116 @@ a{
         font-size: 12px;
     
     }
-    .postcontainer{
+    
+    .commentspic img{
+        margin: 30px 30px;
+         height: 25px;
+         width: 25px;
+         border-radius: 50%;
+     } 
+     .comment{
+        display: flex;
+        margin-left: 10px;
         
-        padding: 0 10px;
         
+    
     }
-    .postupload{
+    .postPic{
+        margin-bottom: 20px;
+    }
+    .commentText{
+        padding: 3px 10px;
         margin: 20px 0;
-        margin-top: 80px;
-       
-    
-        padding:  10px;
+        display: inline;
     }
+    .comBut{
+        margin-left: -30px;
+        border-radius: 30px;
+        font-size: 10px;
+        
+        border: 0;
+       display: inline;
+        align-items: center;
+      height: 30px;
+        width: 30px;
+     }
     
-   
    
 
+}
+
+
+/* left container */
+.leftContainer{
+    padding: 0 20px;
+}
+.homeProfil{
+    
+    margin-top: 70px;
+    padding: 20px 10px;
+    background-color: rgb(207, 236, 236);
+    width: 100%;
+    height: 300px;
+    box-shadow:         inset 0 0 8px #585454
+}
+.homeUser{
+    
+    text-align: center;
+
+}
+.bio{
+    margin: 20px 20px;
+
+    text-align: left;
+    
+    
+}
+.homeUser a img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.homeUser a h3{
+    color: black    ;
+}
+
+
+
+
+
+/* right container */
+.rightContainer{
+    padding: 80px 20px;
+}
+
+.online{
+    width: 100%;
+    height: auto;
+}
+.active{
+    margin: 20px 0;
+}
+.onlineUser{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.onlineUser img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.onlineUser h5{
+    margin-left: 20px;
+    width: 90%;
+
+}
+.onlineUser div{
+    background-color: rgb(31, 182, 31);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
 
 
