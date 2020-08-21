@@ -145,7 +145,7 @@ a{
 
 .profil{
     padding: 0 150px;
-    height: 500px;
+    height: 400px;
    
 
 }
@@ -204,8 +204,12 @@ a{
     color: #34495e;
 }
 .bio{
-    position: absolute;
-    margin-top: 580px;
+    display: flex;
+    justify-content: center;
+   
+    
+    
+    
 }
 .bio table{
     color: #303952;
@@ -256,8 +260,8 @@ a{
     }
     .bio{
         
-        position: absolute;
-        margin-top: 450px;
+       
+        margin-top: 410px;
     }
     .bio table{
         color: #303952;
