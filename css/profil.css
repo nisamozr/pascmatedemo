@@ -222,7 +222,7 @@ a{
 
     .profil{
         padding: 0 ;
-        height: 450px;
+        height: 340px;
        
     }
     .cover{
@@ -261,7 +261,7 @@ a{
     .bio{
         
        
-        margin-top: 410px;
+        
     }
     .bio table{
         color: #303952;
@@ -278,7 +278,7 @@ a{
 
 }
 .submenu{
-    margin-top: auto;
+    margin-top: 40px auto;
     display: flex;
     justify-content: space-around;
     
