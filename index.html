@@ -46,17 +46,10 @@
             <li>
                 <a href=""><i class="fa fa-bell fa-lg"></i></a>
             </li>
-            <li class="toggle-sech">
-                <a href=""><i class="fa fa-search fa-lg"></i></a>
+            <li class="toggle-sech" >
+                <a href="" onclick="toggel()"><i class="fa fa-search fa-lg"></i></a>
             </li>
-            <script>
-                let toggel = document.querySelector('.toggle-sech')
-                let sech = document.querySelector('.mobilserch')
-                toggel.addEventListener('click',function(){
-                    sech.classList.toggle('is-active')
-                })
-
-            </script>
+           
             <li>
                 <a href="profil.html"><i class="fa fa-user fa-lg"></i></a>
             </li>
@@ -114,10 +107,17 @@
             <div class="postcontainer">
                 <div class="searchHeder">
                 <div class="serch mobilserch is-active">
+                    <ul>
+                        <li>
                     <form action="">
                       <input type="search" name="" id="search" />
                       <input type="button" class="btn" value="search" />
                     </form>
+                </li>
+                    </ul>
+                    
+
+                    
                   </div>
                 </div>
                 <div class="postupload">
@@ -127,7 +127,7 @@
                     <div class="postform">
                         <form action="" method="POST" onsubmit="return post()">
 
-                            <textarea id="txtContent" name="txtContent" rows="5"></textarea>
+                            <textarea id="txtContent" name="txtContent" placeholder="Write somethig here..." rows="5"></textarea>
                             <div class="image-upload">
                                 <label for="image-upload">
                                     <i class="fa fa-picture-o" aria-hidden="true"></i>
@@ -215,6 +215,8 @@
 
                                 <form action="">
                                     <input type="text" placeholder="Write a comment....">
+                                    <button class="comBut">send</button>
+
 
                                 </form>
                             </div>
@@ -301,6 +303,7 @@
 
                                 <form action="">
                                     <input type="text" placeholder="Write a comment....">
+                                    <button class="comBut">send</button>
 
                                 </form>
                             </div>
@@ -395,6 +398,8 @@
 
                                 <form action="">
                                     <input type="text" placeholder="Write a comment....">
+                                    <button class="comBut">send</button>
+
 
                                 </form>
                             </div>

@@ -115,7 +115,7 @@ body{
     .mobil{
         background-color: #303952;
         
-        height: 60px;
+        height: 65px;
         width: 100%;
         z-index: 1;
         position: fixed;
@@ -214,8 +214,8 @@ body{
 }
 .postform form textarea{
     width: 100%;
-    height: 70px;
-    padding: 20px;
+    height: 80px;
+    padding: 10px;
     font-size: 16px;
     border-radius: 20px;
     border: 0;
@@ -338,7 +338,7 @@ body{
 }
 .body img{
     width: 100%;
-    min-height: 700px ;
+    min-height: 600px ;
     
 }
 /* vedio */
@@ -386,11 +386,11 @@ body{
     
 }
 .right{
-    background-color:#c9bbbb; 
+    background-color:#dfd5d5; 
     
 }
 .left{
-    background-color:#c0b5b5; ;
+    background-color:#d1caca; ;
 }
 
 .right:hover{
@@ -439,7 +439,7 @@ body{
     margin: 20px 0;
 }
 .commentform form input{
-    background-color: #f3ecec;
+    background-color: #f3f1f1;
     height: 30px;
     width: 100%;
     border: 0;
@@ -448,6 +448,17 @@ body{
     
 
 }
+.comBut{
+    margin-left: -50px;
+    border-radius: 30px;
+    background-color: rgb(198, 198, 241);
+    border: 0;
+   
+    align-items: center;
+height: 30px;
+width: 50px;
+}
+
 
 @media(max-width: 768px){
     .centerContainer{
@@ -455,15 +466,15 @@ body{
         flex: none;
         width: 100%;
     }
-   .searchHeder{
+   /* .searchHeder{
         display: none;
         
     
     }
-    .is-active{
+    .is-active {
         display: block;
         margin-top: 70px;
-    }
+    } */
 
     
     .leftContainer{
@@ -525,6 +536,20 @@ body{
     }
     .postPic{
         margin-bottom: 20px;
+    }
+    .commentText{
+        padding: 3px 10px;
+        margin: 20px 0;
+    }
+    .comBut{
+        margin-left: -50px;
+        border-radius: 30px;
+        
+        border: 0;
+       
+        align-items: center;
+    height: 30px;
+    width: 50px;
     }
     
    

@@ -103,7 +103,7 @@ a{
     .mobil{
         background-color: #303952;
         
-        height: 60px;
+        height: 65px;
         width: 100%;
         z-index: 1;
         position: fixed;
@@ -175,17 +175,7 @@ a{
     
     
 }
-.cover button{
-    
-    width: 100px;
-    height: 20px;
-    position: absolute; 
-    margin: 50%;
 
-
-
-
-}
 .dp{
     width: 180px;
     height: 200px;
@@ -244,6 +234,7 @@ a{
     .dp{
         width: 130px;
         height: 150px;
+        margin-top: 150px;
         
         
     }
@@ -255,7 +246,7 @@ a{
         border-bottom-right-radius: 30px;
         border-top-left-radius: 30px;
     
-        box-shadow: 10px 10px 5px #888
+        box-shadow: 10px 10px 5px rgba(163, 163, 163, 0.4)
     }
     .dp h2{
         font-size: 16px;
