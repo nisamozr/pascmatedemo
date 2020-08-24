@@ -263,13 +263,17 @@ a{
     
         font-weight: bold;
         color: #34495e;
+       
     }
     .bio{
-        
-       
-        
+        display: block;
+
     }
+    
+    
     .bio table{
+        
+        margin-top: 100px;
         color: #303952;
         font-weight: lighter;
         font-size: 12px;
